@@ -1,0 +1,111 @@
+{
+  "projects": [
+    {
+      "name": "Projeto A",
+      "budget": "1000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 600,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "500",
+          "description": "Descrição do serviço 1",
+          "id": "99b00a11-7713-447b-9557-91dec3ee012e"
+        },
+        {
+          "name": "Serviço 2",
+          "cost": "100",
+          "description": "Descrição do serviço 2",
+          "id": "3ad8a5d5-c8d4-408a-b91b-6f8e0da9a889"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": "Projeto B",
+      "budget": "2000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 240,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "240",
+          "description": "Descrição do serviço 1",
+          "id": "89b5a4a2-23bb-4103-9265-54f1f8975d86"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Projeto C",
+      "budget": "3000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 1370,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "900",
+          "description": "Descrição do serviço 1",
+          "id": "284f4d28-5459-4023-bb4b-42e3cbdf95ef"
+        },
+        {
+          "name": "Serviço 2",
+          "cost": "220",
+          "description": "Descrição do serviço 2",
+          "id": "1e78edbf-6798-4d77-a262-70b05b07f036"
+        },
+        {
+          "name": "Serviço 3",
+          "cost": "150",
+          "description": "Descrição do serviço 3",
+          "id": "4b101746-0f9c-494c-9330-269b9a7fab11"
+        },
+        {
+          "name": "Serviço 4",
+          "cost": "100",
+          "description": "Descrição do serviço 4",
+          "id": "b6ea284f-42ee-4079-930d-94dc8135d27a"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "Projeto D",
+      "budget": "4000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
