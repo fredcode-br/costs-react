@@ -1,10 +1,24 @@
-# Getting Started with Create React App
+![header](https://user-images.githubusercontent.com/123844821/232592282-ac97fcaf-6d76-47f0-a8ad-8dc7381f79f8.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Status: Concluded ✅
 
-## Available Scripts
+### Credits to [video by Matheus Battisti](https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO), where he teaches about react and develops the project replicated here. [Original repository link here!](https://github.com/matheusbattisti/curso_react_yt)
 
-In the project directory, you can run:
+## Comments
+
+This project was developed following the course of [Matheus Battisti](https://www.youtube.com/playlist?list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO), in order to learn about react js to apply in future projects.
+
+## Technologies Used:
+
+<table>
+  <tr>
+    <td>React js</td>
+  </tr>
+</table>
+
+### `npm install json-server react-icons react-router-dom uuid`
+
+Install project dependencies.\
 
 ### `npm start`
 
@@ -14,57 +28,19 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+### `npm run backend`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Run the json server on the configured port.\
 
-### `npm run build`
+## How to use this project:
+1) download the files from this repository
+2) open folder in terminal
+3) type the command "npm install json-server react-icons react-router-dom uuid"
+4)  add command ("backend": "json-server --watch db.json --port 5000") below  ("start": "react-scripts start" no arquivo "package.json") at the root
+5) type the command "npm start"
+6) open other terminal and type the command "npm run backend"
+7) Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Project image
+![project](https://user-images.githubusercontent.com/123844821/232592420-a9792968-670f-416e-af4f-783a618e0f8a.png)
